@@ -33,7 +33,7 @@ association_results = list(association_rules)
 print(len(association_results))
 print(association_results[0])
 
-for item in association_rules:
+for item in association_results:
     
     # first index of the inner list
     # Contains base item and add item
